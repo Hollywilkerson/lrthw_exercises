@@ -1,18 +1,15 @@
-# If you type the exercise as it's written in the chapter, Rubocop will complain 
-####about the double quoted strings. Explain how you got rid of the offenses.
+#Rubocop will complain about the double quoted strings. Explain how you got rid of the offenses.
+I ended up taking out the double quotes and using single tics instead. On the strings
+that had words with apostrophes I used a backslash that way it would still print the
+apostrophes without ending the string. For example ....
+puts 'I\'d much rather you "not"'
  
- 
- 
-#Did you fix the strings? Or did you tell Rubocop to ignore those code style violations? 
-
-
-
-
 #Why did you pick what you did?
-  
-  
-  
-  
+I decided to use the single tics that way Robocop can continue to tell me when it 
+thinks something can be written better. Robocop will ensure I continue to write
+code using best practices that are consistent. It will help me stick to a style that
+keeps my coding clean and easier to read.
+ 
 
 # Please include the Study Drills stuff in your ex1.rb file.
 
