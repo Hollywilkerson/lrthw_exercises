@@ -37,8 +37,14 @@ to be a little shorter!
       3         puts "I said: #{x}."
       4         puts "I also said: '#{y}'."
 
-3) Was the author lying about there being four lines of code with a string in a string?
-I think he was telling the truth.
+##Was the author lying about there being four lines of code with a string in a string?
+yeah I think he was lying. He tried to be tricky though.The second variable assigned is
+'x' (line 4) While x is a string, the code within it is an integer variable (types_of_people). 
+So this would be an integer interpolated within a string. On line 18,("I said: #{x}) this is where an integer variable was within x to create a
+string object. So this is a string within a string.
+The last variable that uses interpolation seems like there is a string within a string but its actually
+not. the variable 'hilarious' is not a string.
+(joke_evaluation = "Isn't that joke so funny?! #{hilarious}")
 
 ##Why does adding the strings w + e make a longer string?
 It combines both string w and string e. To create the string presented.
