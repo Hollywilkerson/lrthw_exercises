@@ -1,5 +1,5 @@
 #How did you resolve offenses detected by Rubocop?
-I had alot of spacing issues. When dealing with hashes, alignment and indention is important!
+I had a lot of spacing issues. When dealing with hashes, alignment and indention is important!
 So when going to a new line, I had to go back and only use two spaces for alignment not
 four. I also had to drop the right curly brace at the same indention as the left curly brace.
 
@@ -52,7 +52,7 @@ Here are what my offenses looked like:
 
 ##Do you like string interpolation or format strings? Why?
 
-String interpolation seems alot easier. I find that string interpolation is much easier than 
+String interpolation seems a lot easier. I find that string interpolation is much easier than 
 formatting strings, because it is easier to read and interpret. You can see the variable being
 interpolated and search for it by name. If you name the variable where it makes sense to your program, it
 will make it easier to read as well.

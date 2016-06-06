@@ -11,7 +11,7 @@ chapter_0(113796459_intro_master) $cd mystuff
 mystuff(113796459_intro_master) $ls
 mystuff(113796459_intro_master) $pwd
 /Users/hollywilkerson/workspace/davinci_coders_t1_2016/homework/lrthw_exercises/chapter_0/mystuff
-mystuff(113796459_intro_master) $echo 'inital setup of folder' >test.txt
+mystuff(113796459_intro_master) $echo 'initial setup of folder' >test.txt
 mystuff(113796459_intro_master) $ls
 test.txt
 mystuff(113796459_intro_master) $pwd
